@@ -11,7 +11,7 @@ my_list=[]
 N=100
 F0=0
 F1=1
-m=9
+m=10
 my_list.append(F0)
 my_list.append(F1)
 
@@ -23,7 +23,7 @@ for ii in range(0,N):
     else:
         continue
     
-       
+print('These are the terms that are multiples of m:''\n')       
 print(my_list2)
-
-print(my_list)
+print('\n''This is the total amount of the terms that are multiples of m')  
+print(len(my_list2))
