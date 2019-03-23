@@ -6,9 +6,9 @@ Created on Mon Mar 11 12:22:29 2019
 @author: StephenTivenan
 """
 funlist=[]
-N=11
-a0=53
+a0=9
 funlist.append(a0)
+N=1000
 for ii in range(N-1):
     if (a0 % 2==0):
         a0=a0/2
@@ -22,3 +22,4 @@ for ii in range(N-1):
         break
 if(a0!=1):
     print('We did not reach the value 1 after',N, 'terms')
+    
